@@ -8,7 +8,10 @@ from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
+import json
+from fastapi import WebSocket
 
+# assumes pick_random_itinerary() is already defined as in the previous snippet
 # Load env vars
 load_dotenv()
 
@@ -114,25 +117,18 @@ async def get_random_itinerary():
     except Exception as e:
         return {"error": str(e)}
 
+
 @app.websocket("/ws")
 async def websocket_endpoint(websocket: WebSocket):
     await websocket.accept()
     try:
-        while True:
-            # Receive any text (ignored for selection logic)
-            _ = await websocket.receive_text()
+        item = pick_random_itinerary()
+        await websocket.send_text(json.dumps(item))  # send JSON as text
+    except Exception as e:
+        await websocket.send_text(json.dumps({"error": str(e)}))
+    finally:
+        await websocket.close()
 
-            # Pick a random itinerary from final_itinerary.json
-            try:
-                random_item = pick_random_itinerary()
-                # Send the picked itinerary as JSON text
-                await websocket.send_text(json.dumps(random_item))
-            except Exception as e:
-                # Send a structured error payload if something goes wrong
-                err_payload = {"error": "UNAVAILABLE", "message": str(e)}
-                await websocket.send_text(json.dumps(err_payload))
-    except WebSocketDisconnect:
-        pass
 
 if __name__ == "__main__":
     import uvicorn

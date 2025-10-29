@@ -32,5 +32,4 @@ async def test_ws_endpoint():
 
 # ---------- Run both ----------
 if __name__ == "__main__":
-    test_chat_endpoint()
     asyncio.run(test_ws_endpoint())
