@@ -1,855 +1,150 @@
-[{
-  "response": "Your 2025-11-01 → 2025-11-10 plan for Anuradhapura and Nuwara Eliya is ready. I added rich details to each stop and included 6 nearby restaurants for Day 1 at the day level exactly as requested. Want me to add restaurant lists for Nuwara Eliya days too?",
-  "prompt_suggestion": "Slow the pace on Day 2 and add a sunset walk by Gregory Lake on Day 8.",
-  "travel_data_objects": [
-    {
-      "type": "experiences_object",
-      "data": [
-        {
-          "id": "country_lka",
-          "name": "Sri Lanka",
-          "regions": [
-            {
-              "id": "region_north_central",
-              "name": "North Central Province",
-              "cities": [
-                {
-                  "id": "city_anuradhapura",
-                  "name": "Anuradhapura",
-                  "experiences": [
-                    { "id": "exp_ruwanwelisaya", "name": "Ruwanwelisaya Stupa" },
-                    { "id": "exp_sri_maha_bodhi", "name": "Jaya Sri Maha Bodhi" },
-                    { "id": "exp_jetavanaramaya", "name": "Jetavanaramaya" },
-                    { "id": "exp_isurumuniya", "name": "Isurumuniya Vihara" },
-                    { "id": "exp_mihintale", "name": "Mihintale" }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "region_central",
-              "name": "Central Province",
-              "cities": [
-                {
-                  "id": "city_nuwara_eliya",
-                  "name": "Nuwara Eliya",
-                  "experiences": [
-                    { "id": "exp_horton_plains", "name": "Horton Plains & World's End" },
-                    { "id": "exp_gregory_lake", "name": "Gregory Lake Promenade" },
-                    { "id": "exp_tea_factory", "name": "Tea Factory Tour & Tasting" },
-                    { "id": "exp_galway_park", "name": "Galway's Land National Park" }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "day_wise_itinerary_object",
-      "data": {
-        "Day 1": {
-          "day_id": "day_2025_11_01",
-          "title": "Arrive CMB → Anuradhapura",
-          "description": "Road transfer to Anuradhapura, sunset at Ruwanwelisaya",
-          "blocks": [
-            {
-              "block_id": "blk_1",
-              "country_id": "country_lka",
-              "region_id": "region_north_central",
-              "city_id": "city_anuradhapura",
-              "experiences_time_allocation": { "exp_ruwanwelisaya": "17:30–18:45" },
-              "experiences": [
-                {
-                  "experience_id": "exp_ruwanwelisaya",
-                  "name": "Ruwanwelisaya Stupa",
-                  "category": "Attraction",
-                  "location_latitude": 8.319027,
-                  "location_longitude": 80.4056395,
-                  "images": [
-                    "https://upload.wikimedia.org/wikipedia/commons/8/81/Ruwanwelisaya_Anuradhapura.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/6/6c/Ruwanweliseya_stupa.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/2/25/Ruwanwelisaya_night.jpg"
-                  ],
-                  "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJA84dai31_DoRMtjl1r-kz7Q",
-                  "directions_url": "https://www.google.com/maps/dir/?api=1&destination_place_id=ChIJA84dai31_DoRMtjl1r-kz7Q",
-                  "opening_hours": null,
-                  "description": "One of the most revered stupas in the Sacred City; peaceful at sunset.",
-                  "ticketing": { "tourist": 0, "local": 0, "currency": "LKR", "is_free": true, "notes": "Donations customary; modest dress." },
-                  "recommended_duration_min": 60,
-                  "best_time": "17:00–18:45",
-                  "notes": "Remove footwear in temple areas."
-                }
-              ]
-            }
-          ],
-          "closest_restaurants": [
-            {
-              "name": "Real Win Restaurant Anuradhapura",
-              "rating": 4.9,
-              "address": "No. 221, Maithripala Senanayake Mawatha, Anuradhapura 50000",
-              "location_latitude": 8.2986119,
-              "location_longitude": 80.3764122,
-              "phone_number": "+94 25 223 4567",
-              "business_url": "https://realwin-anuradhapura.example.com",
-              "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJSxixHq_x_DoRyiot404DbdA",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination_place_id=ChIJSxixHq_x_DoRyiot404DbdA",
-              "open_hours": "Daily 10:00–22:00"
-            },
-            {
-              "name": "Bamboo Restaurant & Juice Bar",
-              "rating": 4.8,
-              "address": "Watawandana Rd, Anuradhapura 50000",
-              "location_latitude": 8.3636276,
-              "location_longitude": 80.3956626,
-              "phone_number": "+94 25 224 3344",
-              "business_url": "https://bamboo-juicebar.example.com",
-              "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJBcm5UgD1_DoRuQ6rdoiC3uI",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination_place_id=ChIJBcm5UgD1_DoRuQ6rdoiC3uI",
-              "open_hours": "Daily 09:00–21:30"
-            },
-            {
-              "name": "Kamu Machan",
-              "rating": 4.8,
-              "address": "Abhayawewa Rd, Anuradhapura 50000",
-              "location_latitude": 8.3448577,
-              "location_longitude": 80.4080428,
-              "phone_number": "+94 25 225 8899",
-              "business_url": "https://kamumachan.example.com",
-              "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5TAcR-L1_DoRRmOWgz7k6cw",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination_place_id=ChIJ5TAcR-L1_DoRRmOWgz7k6cw",
-              "open_hours": "Daily 11:00–23:00"
-            },
-            {
-              "name": "Ceylan Lodge Restaurant",
-              "rating": 4.7,
-              "address": "No. 4/2, Harischandra Mawatha, Anuradhapura 50000",
-              "location_latitude": 8.335912,
-              "location_longitude": 80.403118,
-              "phone_number": "+94 25 222 7788",
-              "business_url": "https://ceylanlodge.example.com/restaurant",
-              "maps_url": "https://www.google.com/maps/search/?api=1&query=Ceylan%20Lodge%20Restaurant%20Anuradhapura",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Ceylan%20Lodge%20Restaurant%20Anuradhapura",
-              "open_hours": "Daily 07:00–22:00"
-            },
-            {
-              "name": "Little Paradise Restaurant",
-              "rating": 4.6,
-              "address": "Lake Rd, Anuradhapura 50000",
-              "location_latitude": 8.335101,
-              "location_longitude": 80.410212,
-              "phone_number": "+94 25 222 9911",
-              "business_url": "https://littleparadise.example.com",
-              "maps_url": "https://www.google.com/maps/search/?api=1&query=Little%20Paradise%20Restaurant%20Anuradhapura",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Little%20Paradise%20Restaurant%20Anuradhapura",
-              "open_hours": "Daily 10:00–21:30"
-            },
-            {
-              "name": "Walkers Restaurant",
-              "rating": 4.6,
-              "address": "New Town, Maithripala Senanayake Mawatha, Anuradhapura 50000",
-              "location_latitude": 8.312345,
-              "location_longitude": 80.387654,
-              "phone_number": "+94 25 226 4455",
-              "business_url": "https://walkers-anu.example.com",
-              "maps_url": "https://www.google.com/maps/search/?api=1&query=Walkers%20Restaurant%20Anuradhapura",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Walkers%20Restaurant%20Anuradhapura",
-              "open_hours": "Daily 08:00–22:00"
-            }
-          ]
-        },
-        "Day 2": {
-          "day_id": "day_2025_11_02",
-          "title": "Sacred City Circuit",
-          "description": "Sri Maha Bodhi, Jetavanaramaya, Isurumuniya",
-          "blocks": [
-            {
-              "block_id": "blk_2",
-              "country_id": "country_lka",
-              "region_id": "region_north_central",
-              "city_id": "city_anuradhapura",
-              "experiences_time_allocation": {
-                "exp_sri_maha_bodhi": "08:00–09:00",
-                "exp_jetavanaramaya": "10:00–11:30",
-                "exp_isurumuniya": "16:00–17:00"
-              },
-              "experiences": [
-                {
-                  "experience_id": "exp_sri_maha_bodhi",
-                  "name": "Jaya Sri Maha Bodhi",
-                  "category": "Attraction",
-                  "location_latitude": 8.344278,
-                  "location_longitude": 80.396343,
-                  "images": [
-                    "https://upload.wikimedia.org/wikipedia/commons/4/49/Jaya_Sri_Maha_Bodhi_Anuradhapura.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/2/21/Jaya_Sri_Maha_Bodhi_trunk.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/1/1b/Anuradhapura_Bodhi_Maluwa.jpg"
-                  ],
-                  "maps_url": "https://www.google.com/maps/search/?api=1&query=Jaya%20Sri%20Maha%20Bodhi%20Anuradhapura",
-                  "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Jaya%20Sri%20Maha%20Bodhi%20Anuradhapura",
-                  "opening_hours": { "daily": "05:00–21:00", "special": null },
-                  "description": "Sacred fig tree; a major pilgrimage site.",
-                  "ticketing": { "tourist": 0, "local": 0, "currency": "LKR", "is_free": true, "notes": "Offerings available nearby." },
-                  "recommended_duration_min": 60,
-                  "best_time": "Early morning",
-                  "notes": "Shoulders/knees covered."
-                },
-                {
-                  "experience_id": "exp_jetavanaramaya",
-                  "name": "Jetavanaramaya",
-                  "category": "Attraction",
-                  "location_latitude": 8.3512,
-                  "location_longitude": 80.3957,
-                  "images": [
-                    "https://upload.wikimedia.org/wikipedia/commons/0/0e/Jetavanaramaya_Stupa%2C_Anuradhapura.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/9/9a/Jetavanaramaya_base_bricks.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/1/1e/Jetavanaramaya_panorama.jpg"
-                  ],
-                  "maps_url": "https://www.google.com/maps/search/?api=1&query=Jetavanaramaya%20Anuradhapura",
-                  "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Jetavanaramaya%20Anuradhapura",
-                  "opening_hours": { "daily": "05:30–18:30" },
-                  "description": "Ancient brick stupa and archaeological site; among the tallest of the ancient world.",
-                  "ticketing": { "tourist": 0, "local": 0, "currency": "LKR", "is_free": true, "notes": "May be checked under broader Sacred City ticketing." },
-                  "recommended_duration_min": 60,
-                  "best_time": "Morning",
-                  "notes": "Bring water and a hat."
-                },
-                {
-                  "experience_id": "exp_isurumuniya",
-                  "name": "Isurumuniya Vihara",
-                  "category": "Attraction",
-                  "location_latitude": 8.3385,
-                  "location_longitude": 80.4026,
-                  "images": [
-                    "https://upload.wikimedia.org/wikipedia/commons/5/5d/Isurumuniya_Vihara_Anuradhapura.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/3/39/Isurumuni_Lovers_Relief.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/4/4c/Isurumuniya_temple_pond.jpg"
-                  ],
-                  "maps_url": "https://www.google.com/maps/search/?api=1&query=Isurumuniya%20Vihara%20Anuradhapura",
-                  "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Isurumuniya%20Vihara%20Anuradhapura",
-                  "opening_hours": { "daily": "07:00–18:00" },
-                  "description": "Rock temple famous for the ‘Isurumuniya Lovers’ stone carving.",
-                  "ticketing": { "tourist": 500, "local": 100, "currency": "LKR", "is_free": false, "notes": "Cash preferred." },
-                  "recommended_duration_min": 45,
-                  "best_time": "Late afternoon",
-                  "notes": "Steps can be slippery after rain."
-                }
-              ]
-            }
-          ],
-          "closest_restaurants": [
-            {
-              "name": "Real Win Restaurant Anuradhapura",
-              "rating": 4.9,
-              "address": "No. 221, Maithripala Senanayake Mawatha, Anuradhapura 50000",
-              "location_latitude": 8.2986119,
-              "location_longitude": 80.3764122,
-              "phone_number": "+94 25 223 4567",
-              "business_url": "https://realwin-anuradhapura.example.com",
-              "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJSxixHq_x_DoRyiot404DbdA",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination_place_id=ChIJSxixHq_x_DoRyiot404DbdA",
-              "open_hours": "Daily 10:00–22:00"
-            },
-            {
-              "name": "Bamboo Restaurant & Juice Bar",
-              "rating": 4.8,
-              "address": "Watawandana Rd, Anuradhapura 50000",
-              "location_latitude": 8.3636276,
-              "location_longitude": 80.3956626,
-              "phone_number": "+94 25 224 3344",
-              "business_url": "https://bamboo-juicebar.example.com",
-              "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJBcm5UgD1_DoRuQ6rdoiC3uI",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination_place_id=ChIJBcm5UgD1_DoRuQ6rdoiC3uI",
-              "open_hours": "Daily 09:00–21:30"
-            },
-            {
-              "name": "Kamu Machan",
-              "rating": 4.8,
-              "address": "Abhayawewa Rd, Anuradhapura 50000",
-              "location_latitude": 8.3448577,
-              "location_longitude": 80.4080428,
-              "phone_number": "+94 25 225 8899",
-              "business_url": "https://kamumachan.example.com",
-              "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5TAcR-L1_DoRRmOWgz7k6cw",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination_place_id=ChIJ5TAcR-L1_DoRRmOWgz7k6cw",
-              "open_hours": "Daily 11:00–23:00"
-            },
-            {
-              "name": "Ceylan Lodge Restaurant",
-              "rating": 4.7,
-              "address": "No. 4/2, Harischandra Mawatha, Anuradhapura 50000",
-              "location_latitude": 8.335912,
-              "location_longitude": 80.403118,
-              "phone_number": "+94 25 222 7788",
-              "business_url": "https://ceylanlodge.example.com/restaurant",
-              "maps_url": "https://www.google.com/maps/search/?api=1&query=Ceylan%20Lodge%20Restaurant%20Anuradhapura",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Ceylan%20Lodge%20Restaurant%20Anuradhapura",
-              "open_hours": "Daily 07:00–22:00"
-            },
-            {
-              "name": "Little Paradise Restaurant",
-              "rating": 4.6,
-              "address": "Lake Rd, Anuradhapura 50000",
-              "location_latitude": 8.335101,
-              "location_longitude": 80.410212,
-              "phone_number": "+94 25 222 9911",
-              "business_url": "https://littleparadise.example.com",
-              "maps_url": "https://www.google.com/maps/search/?api=1&query=Little%20Paradise%20Restaurant%20Anuradhapura",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Little%20Paradise%20Restaurant%20Anuradhapura",
-              "open_hours": "Daily 10:00–21:30"
-            },
-            {
-              "name": "Walkers Restaurant",
-              "rating": 4.6,
-              "address": "New Town, Maithripala Senanayake Mawatha, Anuradhapura 50000",
-              "location_latitude": 8.312345,
-              "location_longitude": 80.387654,
-              "phone_number": "+94 25 226 4455",
-              "business_url": "https://walkers-anu.example.com",
-              "maps_url": "https://www.google.com/maps/search/?api=1&query=Walkers%20Restaurant%20Anuradhapura",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Walkers%20Restaurant%20Anuradhapura",
-              "open_hours": "Daily 08:00–22:00"
-            }
-          ]
-        },
-        "Day 3": {
-          "day_id": "day_2025_11_03",
-          "title": "Mihintale & Tanks",
-          "description": "Optional sunrise at Mihintale; easy cycling around reservoirs",
-          "blocks": [
-            {
-              "block_id": "blk_3",
-              "country_id": "country_lka",
-              "region_id": "region_north_central",
-              "city_id": "city_anuradhapura",
-              "experiences_time_allocation": { "exp_mihintale": "05:30–08:00" },
-              "experiences": [
-                {
-                  "experience_id": "exp_mihintale",
-                  "name": "Mihintale",
-                  "category": "Attraction",
-                  "location_latitude": 8.3706,
-                  "location_longitude": 80.5129,
-                  "images": [
-                    "https://upload.wikimedia.org/wikipedia/commons/1/1b/Mihintale_rock_monastery.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/1/1d/Mihintale_Aradhana_gala.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/6/6a/Mihintale_stairs.jpg"
-                  ],
-                  "maps_url": "https://www.google.com/maps/search/?api=1&query=Mihintale",
-                  "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Mihintale",
-                  "opening_hours": { "daily": "05:30–18:30" },
-                  "description": "Hilltop monastery, believed to be where Buddhism was introduced to Sri Lanka.",
-                  "ticketing": { "tourist": 1000, "local": 100, "currency": "LKR", "is_free": false, "notes": "Occasional separate parking fee." },
-                  "recommended_duration_min": 120,
-                  "best_time": "Sunrise",
-                  "notes": "Many steps; carry water."
-                }
-              ]
-            }
-          ],
-          "closest_restaurants": [
-            {
-              "name": "Real Win Restaurant Anuradhapura",
-              "rating": 4.9,
-              "address": "No. 221, Maithripala Senanayake Mawatha, Anuradhapura 50000",
-              "location_latitude": 8.2986119,
-              "location_longitude": 80.3764122,
-              "phone_number": "+94 25 223 4567",
-              "business_url": "https://realwin-anuradhapura.example.com",
-              "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJSxixHq_x_DoRyiot404DbdA",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination_place_id=ChIJSxixHq_x_DoRyiot404DbdA",
-              "open_hours": "Daily 10:00–22:00"
-            },
-            {
-              "name": "Bamboo Restaurant & Juice Bar",
-              "rating": 4.8,
-              "address": "Watawandana Rd, Anuradhapura 50000",
-              "location_latitude": 8.3636276,
-              "location_longitude": 80.3956626,
-              "phone_number": "+94 25 224 3344",
-              "business_url": "https://bamboo-juicebar.example.com",
-              "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJBcm5UgD1_DoRuQ6rdoiC3uI",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination_place_id=ChIJBcm5UgD1_DoRuQ6rdoiC3uI",
-              "open_hours": "Daily 09:00–21:30"
-            },
-            {
-              "name": "Kamu Machan",
-              "rating": 4.8,
-              "address": "Abhayawewa Rd, Anuradhapura 50000",
-              "location_latitude": 8.3448577,
-              "location_longitude": 80.4080428,
-              "phone_number": "+94 25 225 8899",
-              "business_url": "https://kamumachan.example.com",
-              "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5TAcR-L1_DoRRmOWgz7k6cw",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination_place_id=ChIJ5TAcR-L1_DoRRmOWgz7k6cw",
-              "open_hours": "Daily 11:00–23:00"
-            },
-            {
-              "name": "Ceylan Lodge Restaurant",
-              "rating": 4.7,
-              "address": "No. 4/2, Harischandra Mawatha, Anuradhapura 50000",
-              "location_latitude": 8.335912,
-              "location_longitude": 80.403118,
-              "phone_number": "+94 25 222 7788",
-              "business_url": "https://ceylanlodge.example.com/restaurant",
-              "maps_url": "https://www.google.com/maps/search/?api=1&query=Ceylan%20Lodge%20Restaurant%20Anuradhapura",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Ceylan%20Lodge%20Restaurant%20Anuradhapura",
-              "open_hours": "Daily 07:00–22:00"
-            },
-            {
-              "name": "Little Paradise Restaurant",
-              "rating": 4.6,
-              "address": "Lake Rd, Anuradhapura 50000",
-              "location_latitude": 8.335101,
-              "location_longitude": 80.410212,
-              "phone_number": "+94 25 222 9911",
-              "business_url": "https://littleparadise.example.com",
-              "maps_url": "https://www.google.com/maps/search/?api=1&query=Little%20Paradise%20Restaurant%20Anuradhapura",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Little%20Paradise%20Restaurant%20Anuradhapura",
-              "open_hours": "Daily 10:00–21:30"
-            },
-            {
-              "name": "Walkers Restaurant",
-              "rating": 4.6,
-              "address": "New Town, Maithripala Senanayake Mawatha, Anuradhapura 50000",
-              "location_latitude": 8.312345,
-              "location_longitude": 80.387654,
-              "phone_number": "+94 25 226 4455",
-              "business_url": "https://walkers-anu.example.com",
-              "maps_url": "https://www.google.com/maps/search/?api=1&query=Walkers%20Restaurant%20Anuradhapura",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Walkers%20Restaurant%20Anuradhapura",
-              "open_hours": "Daily 08:00–22:00"
-            }
-          ]
-        },
-        "Day 4": {
-          "day_id": "day_2025_11_04",
-          "title": "Buffer / Flex Day",
-          "description": "Keep flexible for weather and rest; light sightseeing",
-          "blocks": []
-        },
-        "Day 5": {
-          "day_id": "day_2025_11_05",
-          "title": "Transit: Anuradhapura → Nuwara Eliya (via Kandy)",
-          "description": "Road transfer; lunch stop in Kandy recommended",
-          "blocks": []
-        },
-        "Day 6": {
-          "day_id": "day_2025_11_06",
-          "title": "Tea Country Orientation",
-          "description": "Tea factory tour & tasting; Gregory Lake walk",
-          "blocks": [
-            {
-              "block_id": "blk_6",
-              "country_id": "country_lka",
-              "region_id": "region_central",
-              "city_id": "city_nuwara_eliya",
-              "experiences_time_allocation": {
-                "exp_tea_factory": "10:00–12:00",
-                "exp_gregory_lake": "16:30–18:00"
-              },
-              "experiences": [
-                {
-                  "experience_id": "exp_tea_factory",
-                  "name": "Tea Factory Tour & Tasting",
-                  "category": "Hands-on",
-                  "location_latitude": 6.9498,
-                  "location_longitude": 80.789,
-                  "images": [
-                    "https://upload.wikimedia.org/wikipedia/commons/9/9b/Sri_Lanka_tea_factory_inside.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/6/66/Tea_leaf_plucking_in_Sri_Lanka.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/7/7d/Tea_Tasting.jpg"
-                  ],
-                  "maps_url": "https://www.google.com/maps/search/?api=1&query=Tea%20Factory%20Nuwara%20Eliya",
-                  "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Tea%20Factory%20Nuwara%20Eliya",
-                  "opening_hours": { "daily": "09:00–17:00" },
-                  "description": "Guided walk through tea processing with tasting at the end.",
-                  "ticketing": { "tourist": 1500, "local": 800, "currency": "LKR", "is_free": false, "notes": "Some estates waive fees if you buy tea." },
-                  "recommended_duration_min": 90,
-                  "best_time": "Morning",
-                  "notes": "Closed-toe shoes recommended."
-                },
-                {
-                  "experience_id": "exp_gregory_lake",
-                  "name": "Gregory Lake Promenade",
-                  "category": "Attraction",
-                  "location_latitude": 6.957,
-                  "location_longitude": 80.78,
-                  "images": [
-                    "https://upload.wikimedia.org/wikipedia/commons/1/1b/Gregory_Lake_Nuwara_Eliya.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/9/9b/Gregory_Park_boats.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/0/0a/Nuwara_Eliya_Lake_sunset.jpg"
-                  ],
-                  "maps_url": "https://www.google.com/maps/search/?api=1&query=Gregory%20Lake%20Nuwara%20Eliya",
-                  "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Gregory%20Lake%20Nuwara%20Eliya",
-                  "opening_hours": { "daily": "06:00–19:00" },
-                  "description": "Lakeside walking path; pony rides and paddle boats available.",
-                  "ticketing": { "tourist": 200, "local": 100, "currency": "LKR", "is_free": false, "notes": "Boat rentals extra." },
-                  "recommended_duration_min": 60,
-                  "best_time": "Late afternoon",
-                  "notes": "Can be windy—carry a light jacket."
-                }
-              ]
-            }
-          ],
-          "closest_restaurants": [
-            {
-              "name": "Real Win Restaurant Anuradhapura",
-              "rating": 4.9,
-              "address": "No. 221, Maithripala Senanayake Mawatha, Anuradhapura 50000",
-              "location_latitude": 8.2986119,
-              "location_longitude": 80.3764122,
-              "phone_number": "+94 25 223 4567",
-              "business_url": "https://realwin-anuradhapura.example.com",
-              "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJSxixHq_x_DoRyiot404DbdA",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination_place_id=ChIJSxixHq_x_DoRyiot404DbdA",
-              "open_hours": "Daily 10:00–22:00"
-            },
-            {
-              "name": "Bamboo Restaurant & Juice Bar",
-              "rating": 4.8,
-              "address": "Watawandana Rd, Anuradhapura 50000",
-              "location_latitude": 8.3636276,
-              "location_longitude": 80.3956626,
-              "phone_number": "+94 25 224 3344",
-              "business_url": "https://bamboo-juicebar.example.com",
-              "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJBcm5UgD1_DoRuQ6rdoiC3uI",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination_place_id=ChIJBcm5UgD1_DoRuQ6rdoiC3uI",
-              "open_hours": "Daily 09:00–21:30"
-            },
-            {
-              "name": "Kamu Machan",
-              "rating": 4.8,
-              "address": "Abhayawewa Rd, Anuradhapura 50000",
-              "location_latitude": 8.3448577,
-              "location_longitude": 80.4080428,
-              "phone_number": "+94 25 225 8899",
-              "business_url": "https://kamumachan.example.com",
-              "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5TAcR-L1_DoRRmOWgz7k6cw",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination_place_id=ChIJ5TAcR-L1_DoRRmOWgz7k6cw",
-              "open_hours": "Daily 11:00–23:00"
-            },
-            {
-              "name": "Ceylan Lodge Restaurant",
-              "rating": 4.7,
-              "address": "No. 4/2, Harischandra Mawatha, Anuradhapura 50000",
-              "location_latitude": 8.335912,
-              "location_longitude": 80.403118,
-              "phone_number": "+94 25 222 7788",
-              "business_url": "https://ceylanlodge.example.com/restaurant",
-              "maps_url": "https://www.google.com/maps/search/?api=1&query=Ceylan%20Lodge%20Restaurant%20Anuradhapura",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Ceylan%20Lodge%20Restaurant%20Anuradhapura",
-              "open_hours": "Daily 07:00–22:00"
-            },
-            {
-              "name": "Little Paradise Restaurant",
-              "rating": 4.6,
-              "address": "Lake Rd, Anuradhapura 50000",
-              "location_latitude": 8.335101,
-              "location_longitude": 80.410212,
-              "phone_number": "+94 25 222 9911",
-              "business_url": "https://littleparadise.example.com",
-              "maps_url": "https://www.google.com/maps/search/?api=1&query=Little%20Paradise%20Restaurant%20Anuradhapura",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Little%20Paradise%20Restaurant%20Anuradhapura",
-              "open_hours": "Daily 10:00–21:30"
-            },
-            {
-              "name": "Walkers Restaurant",
-              "rating": 4.6,
-              "address": "New Town, Maithripala Senanayake Mawatha, Anuradhapura 50000",
-              "location_latitude": 8.312345,
-              "location_longitude": 80.387654,
-              "phone_number": "+94 25 226 4455",
-              "business_url": "https://walkers-anu.example.com",
-              "maps_url": "https://www.google.com/maps/search/?api=1&query=Walkers%20Restaurant%20Anuradhapura",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Walkers%20Restaurant%20Anuradhapura",
-              "open_hours": "Daily 08:00–22:00"
-            }
-          ]
-        },
-        "Day 7": {
-          "day_id": "day_2025_11_07",
-          "title": "Horton Plains Trek",
-          "description": "Early start for World's End loop (weather-dependent)",
-          "blocks": [
-            {
-              "block_id": "blk_7",
-              "country_id": "country_lka",
-              "region_id": "region_central",
-              "city_id": "city_nuwara_eliya",
-              "experiences_time_allocation": { "exp_horton_plains": "06:00–11:30" },
-              "experiences": [
-                {
-                  "experience_id": "exp_horton_plains",
-                  "name": "Horton Plains & World's End",
-                  "category": "Activity",
-                  "location_latitude": 6.8021,
-                  "location_longitude": 80.7998,
-                  "images": [
-                    "https://upload.wikimedia.org/wikipedia/commons/b/b9/Horton_Plains_World%27s_End.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/3/3f/Horton_Plains_grassland.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/8/87/Bakers_Falls_Horton_Plains.jpg"
-                  ],
-                  "maps_url": "https://www.google.com/maps/search/?api=1&query=Horton%20Plains%20National%20Park",
-                  "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Horton%20Plains%20National%20Park",
-                  "opening_hours": { "daily": "06:00–18:00" },
-                  "description": "Highland plateau trek with viewpoints; mist clears earlier.",
-                  "ticketing": { "tourist": 7000, "local": 1500, "currency": "LKR", "is_free": false, "notes": "Rates vary by category and vehicle; bring cash." },
-                  "recommended_duration_min": 240,
-                  "best_time": "06:00–09:00",
-                  "notes": "Carry water, snacks, and a light rain jacket."
-                }
-              ]
-            }
-          ],
-          "closest_restaurants": [
-            {
-              "name": "Real Win Restaurant Anuradhapura",
-              "rating": 4.9,
-              "address": "No. 221, Maithripala Senanayake Mawatha, Anuradhapura 50000",
-              "location_latitude": 8.2986119,
-              "location_longitude": 80.3764122,
-              "phone_number": "+94 25 223 4567",
-              "business_url": "https://realwin-anuradhapura.example.com",
-              "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJSxixHq_x_DoRyiot404DbdA",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination_place_id=ChIJSxixHq_x_DoRyiot404DbdA",
-              "open_hours": "Daily 10:00–22:00"
-            },
-            {
-              "name": "Bamboo Restaurant & Juice Bar",
-              "rating": 4.8,
-              "address": "Watawandana Rd, Anuradhapura 50000",
-              "location_latitude": 8.3636276,
-              "location_longitude": 80.3956626,
-              "phone_number": "+94 25 224 3344",
-              "business_url": "https://bamboo-juicebar.example.com",
-              "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJBcm5UgD1_DoRuQ6rdoiC3uI",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination_place_id=ChIJBcm5UgD1_DoRuQ6rdoiC3uI",
-              "open_hours": "Daily 09:00–21:30"
-            },
-            {
-              "name": "Kamu Machan",
-              "rating": 4.8,
-              "address": "Abhayawewa Rd, Anuradhapura 50000",
-              "location_latitude": 8.3448577,
-              "location_longitude": 80.4080428,
-              "phone_number": "+94 25 225 8899",
-              "business_url": "https://kamumachan.example.com",
-              "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5TAcR-L1_DoRRmOWgz7k6cw",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination_place_id=ChIJ5TAcR-L1_DoRRmOWgz7k6cw",
-              "open_hours": "Daily 11:00–23:00"
-            },
-            {
-              "name": "Ceylan Lodge Restaurant",
-              "rating": 4.7,
-              "address": "No. 4/2, Harischandra Mawatha, Anuradhapura 50000",
-              "location_latitude": 8.335912,
-              "location_longitude": 80.403118,
-              "phone_number": "+94 25 222 7788",
-              "business_url": "https://ceylanlodge.example.com/restaurant",
-              "maps_url": "https://www.google.com/maps/search/?api=1&query=Ceylan%20Lodge%20Restaurant%20Anuradhapura",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Ceylan%20Lodge%20Restaurant%20Anuradhapura",
-              "open_hours": "Daily 07:00–22:00"
-            },
-            {
-              "name": "Little Paradise Restaurant",
-              "rating": 4.6,
-              "address": "Lake Rd, Anuradhapura 50000",
-              "location_latitude": 8.335101,
-              "location_longitude": 80.410212,
-              "phone_number": "+94 25 222 9911",
-              "business_url": "https://littleparadise.example.com",
-              "maps_url": "https://www.google.com/maps/search/?api=1&query=Little%20Paradise%20Restaurant%20Anuradhapura",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Little%20Paradise%20Restaurant%20Anuradhapura",
-              "open_hours": "Daily 10:00–21:30"
-            },
-            {
-              "name": "Walkers Restaurant",
-              "rating": 4.6,
-              "address": "New Town, Maithripala Senanayake Mawatha, Anuradhapura 50000",
-              "location_latitude": 8.312345,
-              "location_longitude": 80.387654,
-              "phone_number": "+94 25 226 4455",
-              "business_url": "https://walkers-anu.example.com",
-              "maps_url": "https://www.google.com/maps/search/?api=1&query=Walkers%20Restaurant%20Anuradhapura",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Walkers%20Restaurant%20Anuradhapura",
-              "open_hours": "Daily 08:00–22:00"
-            }
-          ]
-        },
-        "Day 8": {
-          "day_id": "day_2025_11_08",
-          "title": "Galway's Land & Town",
-          "description": "Birding stroll, colonial town walk, optional high tea",
-          "blocks": [
-            {
-              "block_id": "blk_8",
-              "country_id": "country_lka",
-              "region_id": "region_central",
-              "city_id": "city_nuwara_eliya",
-              "experiences_time_allocation": { "exp_galway_park": "08:30–10:30" },
-              "experiences": [
-                {
-                  "experience_id": "exp_galway_park",
-                  "name": "Galway's Land National Park",
-                  "category": "Attraction",
-                  "location_latitude": 6.9687,
-                  "location_longitude": 80.7808,
-                  "images": [
-                    "https://upload.wikimedia.org/wikipedia/commons/4/4d/Galway%27s_Land_National_Park.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/7/7b/Nuwara_Eliya_montane_forest.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/5/5b/Sri_Lanka_birding_montane.jpg"
-                  ],
-                  "maps_url": "https://www.google.com/maps/search/?api=1&query=Galway%27s%20Land%20National%20Park",
-                  "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Galway%27s%20Land%20National%20Park",
-                  "opening_hours": { "daily": "08:00–17:00" },
-                  "description": "Small montane forest park; good for birding and short walks.",
-                  "ticketing": { "tourist": 3000, "local": 200, "currency": "LKR", "is_free": false, "notes": "Occasional guide fee optional." },
-                  "recommended_duration_min": 90,
-                  "best_time": "Morning",
-                  "notes": "Leech socks helpful after rain."
-                }
-              ]
-            }
-          ],
-          "closest_restaurants": [
-            {
-              "name": "Real Win Restaurant Anuradhapura",
-              "rating": 4.9,
-              "address": "No. 221, Maithripala Senanayake Mawatha, Anuradhapura 50000",
-              "location_latitude": 8.2986119,
-              "location_longitude": 80.3764122,
-              "phone_number": "+94 25 223 4567",
-              "business_url": "https://realwin-anuradhapura.example.com",
-              "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJSxixHq_x_DoRyiot404DbdA",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination_place_id=ChIJSxixHq_x_DoRyiot404DbdA",
-              "open_hours": "Daily 10:00–22:00"
-            },
-            {
-              "name": "Bamboo Restaurant & Juice Bar",
-              "rating": 4.8,
-              "address": "Watawandana Rd, Anuradhapura 50000",
-              "location_latitude": 8.3636276,
-              "location_longitude": 80.3956626,
-              "phone_number": "+94 25 224 3344",
-              "business_url": "https://bamboo-juicebar.example.com",
-              "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJBcm5UgD1_DoRuQ6rdoiC3uI",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination_place_id=ChIJBcm5UgD1_DoRuQ6rdoiC3uI",
-              "open_hours": "Daily 09:00–21:30"
-            },
-            {
-              "name": "Kamu Machan",
-              "rating": 4.8,
-              "address": "Abhayawewa Rd, Anuradhapura 50000",
-              "location_latitude": 8.3448577,
-              "location_longitude": 80.4080428,
-              "phone_number": "+94 25 225 8899",
-              "business_url": "https://kamumachan.example.com",
-              "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5TAcR-L1_DoRRmOWgz7k6cw",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination_place_id=ChIJ5TAcR-L1_DoRRmOWgz7k6cw",
-              "open_hours": "Daily 11:00–23:00"
-            },
-            {
-              "name": "Ceylan Lodge Restaurant",
-              "rating": 4.7,
-              "address": "No. 4/2, Harischandra Mawatha, Anuradhapura 50000",
-              "location_latitude": 8.335912,
-              "location_longitude": 80.403118,
-              "phone_number": "+94 25 222 7788",
-              "business_url": "https://ceylanlodge.example.com/restaurant",
-              "maps_url": "https://www.google.com/maps/search/?api=1&query=Ceylan%20Lodge%20Restaurant%20Anuradhapura",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Ceylan%20Lodge%20Restaurant%20Anuradhapura",
-              "open_hours": "Daily 07:00–22:00"
-            },
-            {
-              "name": "Little Paradise Restaurant",
-              "rating": 4.6,
-              "address": "Lake Rd, Anuradhapura 50000",
-              "location_latitude": 8.335101,
-              "location_longitude": 80.410212,
-              "phone_number": "+94 25 222 9911",
-              "business_url": "https://littleparadise.example.com",
-              "maps_url": "https://www.google.com/maps/search/?api=1&query=Little%20Paradise%20Restaurant%20Anuradhapura",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Little%20Paradise%20Restaurant%20Anuradhapura",
-              "open_hours": "Daily 10:00–21:30"
-            },
-            {
-              "name": "Walkers Restaurant",
-              "rating": 4.6,
-              "address": "New Town, Maithripala Senanayake Mawatha, Anuradhapura 50000",
-              "location_latitude": 8.312345,
-              "location_longitude": 80.387654,
-              "phone_number": "+94 25 226 4455",
-              "business_url": "https://walkers-anu.example.com",
-              "maps_url": "https://www.google.com/maps/search/?api=1&query=Walkers%20Restaurant%20Anuradhapura",
-              "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Walkers%20Restaurant%20Anuradhapura",
-              "open_hours": "Daily 08:00–22:00"
-            }
-          ]
-        },
-        "Day 9": {
-          "day_id": "day_2025_11_09",
-          "title": "Leisure / Weather buffer",
-          "description": "Free day: add more tea estates or lakeside cycling",
-          "blocks": []
-        },
-        "Day 10": {
-          "day_id": "day_2025_11_10",
-          "title": "Nuwara Eliya → CMB departure",
-          "description": "Return to Colombo for flight/home",
-          "blocks": []
-        }
-      }
-    },
-    {
-      "type": "ideal_route_object",
-      "data": {
-        "nodes": [
-          { "id": "city_cmb", "label": "Colombo (CMB)" },
-          { "id": "city_anuradhapura", "label": "Anuradhapura" },
-          { "id": "city_kandy", "label": "Kandy (hub)" },
-          { "id": "city_nuwara_eliya", "label": "Nuwara Eliya" }
-        ],
-        "edges": [
-          { "from": "city_cmb", "to": "city_anuradhapura", "mode": "road", "duration_min": 240 },
-          { "from": "city_anuradhapura", "to": "city_kandy", "mode": "road", "duration_min": 210 },
-          { "from": "city_kandy", "to": "city_nuwara_eliya", "mode": "road", "duration_min": 150 },
-          { "from": "city_nuwara_eliya", "to": "city_cmb", "mode": "road", "duration_min": 300 }
-        ]
-      }
-    }
-  ],
-  "meta": {
-    "agents_used": ["supervisor", "experience_agent", "itinerary_agent"],
-    "plan_status": "created_or_updated",
-    "itinerary_status": "created",
-    "date_range": { "start": "2025-11-01", "end": "2025-11-10" },
-    "notes": "Ticket values are placeholders for demo/testing."
-  },
-  "user_id": "user_001",
-  "thread_id": "7f4a1a6e-0c92-4e2c-bc9c-8e6f6a2a1b55",
-  "text": "Your plan is ready with rich details for each stop. Want pace or budget tweaks?",
-  "plan": {
-    "countries": ["Sri Lanka"],
-    "regions": ["North Central Province", "Central Province"],
-    "cities": ["Anuradhapura", "Nuwara Eliya"],
-    "experiences": [
-      "Ruwanwelisaya Stupa",
-      "Jaya Sri Maha Bodhi",
-      "Jetavanaramaya",
-      "Isurumuniya Vihara",
-      "Mihintale",
-      "Tea Factory Tour & Tasting",
-      "Gregory Lake Promenade",
-      "Horton Plains & World's End",
-      "Galway's Land National Park"
-    ]
-  },
-  "suggestions": [
-    "Add hotel shortlists near Sacred City and near Gregory Lake",
-    "Confirm weather-dependent early starts",
-    "Adjust walking intensity on Days 2 and 7"
-  ]
+[
+{
+"request": {
+"user_id": "user_demo",
+"origin": "string",
+"destination": "Anuradhapura",
+"depart_date": "2025-11-01",
+"return_date": "2025-11-01",
+"pax": 1,
+"budget": 0,
+"prefs": { "additionalProp1": {} },
+"experience_queries": ["culture", "history"]
+},
+"trip_summary": {
+"nights": 9,
+"cities": ["Anuradhapura", "Nuwara Eliya"],
+"notes": [
+"Daytime temps in Anuradhapura can be hot; schedule temples for morning/evening.",
+"Carry socks/scarf for temple visits; dress modestly."
+]
+},
+"services": {
+"sightseeing_service": {
+"status": "ok",
+"experiences": [
+{
+"id": "ChIJfbxYZb31_DoRVO6nFKyDpl4",
+"title": "Jaya Sri Maha Bodhi",
+"type": "place_of_worship",
+"rating": 4.9,
+"location_latitude": 8.3446448,
+"location_longitude": 80.3972292,
+"google_map_url": "[https://www.google.com/maps/place/?q=place_id](https://www.google.com/maps/place/?q=place_id):ChIJfbxYZb31_DoRVO6nFKyDpl4",
+"directions_url": "[https://www.google.com/maps/dir/?api=1&destination=8.3446448,80.3972292](https://www.google.com/maps/dir/?api=1&destination=8.3446448,80.3972292)",
+"tags": ["sightseeing", "tourist_attraction", "point_of_interest"],
+"image_urls": [
+"[https://picsum.photos/seed/anurabodhi-1/800/600](https://picsum.photos/seed/anurabodhi-1/800/600)",
+"[https://picsum.photos/seed/anurabodhi-2/800/600](https://picsum.photos/seed/anurabodhi-2/800/600)",
+"[https://picsum.photos/seed/anurabodhi-3/800/600](https://picsum.photos/seed/anurabodhi-3/800/600)"
+]
+},
+{
+"id": "ChIJQRJv0Zb1_DoRjWifejv6EvQ",
+"title": "Ruwanweli Maha Seya",
+"type": "place_of_worship",
+"rating": 4.9,
+"location_latitude": 8.3499705,
+"location_longitude": 80.3961599,
+"google_map_url": "[https://www.google.com/maps/place/?q=place_id](https://www.google.com/maps/place/?q=place_id):ChIJQRJv0Zb1_DoRjWifejv6EvQ",
+"directions_url": "[https://www.google.com/maps/dir/?api=1&destination=8.3499705,80.3961599](https://www.google.com/maps/dir/?api=1&destination=8.3499705,80.3961599)",
+"tags": ["sightseeing", "historical_landmark"],
+"image_urls": [
+"[https://picsum.photos/seed/ruwan-1/800/600](https://picsum.photos/seed/ruwan-1/800/600)",
+"[https://picsum.photos/seed/ruwan-2/800/600](https://picsum.photos/seed/ruwan-2/800/600)",
+"[https://picsum.photos/seed/ruwan-3/800/600](https://picsum.photos/seed/ruwan-3/800/600)"
+]
 }
+]
+},
+"dining_service": {
+"status": "ok",
+"city": "Anuradhapura",
+"recommendations": {
+"dinner": [
+{
+"place_id": "ChIJUUsQYwD1_DoRpkuK9wz_yp4",
+"name": "Sorriso Restaurant",
+"type": "restaurant",
+"rating": 4.8,
+"google_map_url": "[https://www.google.com/maps/place/?q=place_id](https://www.google.com/maps/place/?q=place_id):ChIJUUsQYwD1_DoRpkuK9wz_yp4",
+"directions_url": "[https://www.google.com/maps/dir/?api=1&destination_place_id=ChIJUUsQYwD1_DoRpkuK9wz_yp4](https://www.google.com/maps/dir/?api=1&destination_place_id=ChIJUUsQYwD1_DoRpkuK9wz_yp4)",
+"image_urls": [
+"[https://picsum.photos/seed/sorriso-1/800/600](https://picsum.photos/seed/sorriso-1/800/600)",
+"[https://picsum.photos/seed/sorriso-2/800/600](https://picsum.photos/seed/sorriso-2/800/600)",
+"[https://picsum.photos/seed/sorriso-3/800/600](https://picsum.photos/seed/sorriso-3/800/600)"
+]
+},
+{
+"place_id": "ChIJA84dai31_DoRMtjl1r-kz7Q",
+"name": "Bro Restaurant",
+"type": "restaurant",
+"rating": 4.6,
+"google_map_url": "[https://www.google.com/maps/place/?q=place_id](https://www.google.com/maps/place/?q=place_id):ChIJA84dai31_DoRMtjl1r-kz7Q",
+"directions_url": "[https://www.google.com/maps/dir/?api=1&destination_place_id=ChIJA84dai31_DoRMtjl1r-kz7Q](https://www.google.com/maps/dir/?api=1&destination_place_id=ChIJA84dai31_DoRMtjl1r-kz7Q)",
+"image_urls": [
+"[https://picsum.photos/seed/bro-1/800/600](https://picsum.photos/seed/bro-1/800/600)",
+"[https://picsum.photos/seed/bro-2/800/600](https://picsum.photos/seed/bro-2/800/600)",
+"[https://picsum.photos/seed/bro-3/800/600](https://picsum.photos/seed/bro-3/800/600)"
+]
+}
+]
+}
+}
+},
+"itinerary": [
+{
+"day": 1,
+"start_time": "08:30",
+"end_time": "11:30",
+"title": "Sacred City Highlights",
+"location": "Anuradhapura",
+"waypoints": [
+{
+"id": "ChIJfbxYZb31_DoRVO6nFKyDpl4",
+"title": "Jaya Sri Maha Bodhi",
+"dwell_min": 90,
+"image_urls": [
+"[https://picsum.photos/seed/it-anura-1/800/600](https://picsum.photos/seed/it-anura-1/800/600)",
+"[https://picsum.photos/seed/it-anura-2/800/600](https://picsum.photos/seed/it-anura-2/800/600)",
+"[https://picsum.photos/seed/it-anura-3/800/600](https://picsum.photos/seed/it-anura-3/800/600)"
+]
+},
+{
+"id": "ChIJQRJv0Zb1_DoRjWifejv6EvQ",
+"title": "Ruwanweli Maha Seya",
+"dwell_min": 60,
+"image_urls": [
+"[https://picsum.photos/seed/it-anura-4/800/600](https://picsum.photos/seed/it-anura-4/800/600)",
+"[https://picsum.photos/seed/it-anura-5/800/600](https://picsum.photos/seed/it-anura-5/800/600)",
+"[https://picsum.photos/seed/it-anura-6/800/600](https://picsum.photos/seed/it-anura-6/800/600)"
+]
+}
+],
+"notes": "Go early to avoid heat."
+},
+{
+"day": 1,
+"start_time": "18:00",
+"end_time": "20:00",
+"title": "Dinner near Sacred City",
+"location": "Anuradhapura",
+"meal": {
+"slot": "dinner",
+"suggestions": [
+{ "place_id": "ChIJUUsQYwD1_DoRpkuK9wz_yp4", "name": "Sorriso Restaurant" },
+{ "place_id": "ChIJA84dai31_DoRMtjl1r-kz7Q", "name": "Bro Restaurant" }
+]
+}
+}
+],
+"crosslinks": {
+"experience_to_nearby_dining": {
+"ChIJQRJv0Zb1_DoRjWifejv6EvQ": ["ChIJUUsQYwD1_DoRpkuK9wz_yp4", "ChIJA84dai31_DoRMtjl1r-kz7Q"]
+}
+},
+"errors": {}
+}
+
+
 ]
