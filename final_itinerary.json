@@ -1,4 +1,4 @@
-{
+[{
   "response": "Your 2025-11-01 → 2025-11-10 plan for Anuradhapura and Nuwara Eliya is ready. I added rich details to each stop and included 6 nearby restaurants for Day 1 at the day level exactly as requested. Want me to add restaurant lists for Nuwara Eliya days too?",
   "prompt_suggestion": "Slow the pace on Day 2 and add a sunset walk by Gregory Lake on Day 8.",
   "travel_data_objects": [
@@ -852,3 +852,4 @@
     "Adjust walking intensity on Days 2 and 7"
   ]
 }
+]
