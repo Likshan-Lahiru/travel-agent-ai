@@ -69,9 +69,9 @@
                   "location_latitude": 8.319027,
                   "location_longitude": 80.4056395,
                   "images": [
-                    "https://upload.wikimedia.org/wikipedia/commons/8/81/Ruwanwelisaya_Anuradhapura.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/6/6c/Ruwanweliseya_stupa.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/2/25/Ruwanwelisaya_night.jpg"
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Ruwanwelisaya.jpg/500px-Ruwanwelisaya.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Ruwanwelisaya.jpg/500px-Ruwanwelisaya.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Ruwanwelisaya.jpg/500px-Ruwanwelisaya.jpg"
                   ],
                   "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJA84dai31_DoRMtjl1r-kz7Q",
                   "directions_url": "https://www.google.com/maps/dir/?api=1&destination_place_id=ChIJA84dai31_DoRMtjl1r-kz7Q",
@@ -333,9 +333,9 @@
                   "location_latitude": 8.3706,
                   "location_longitude": 80.5129,
                   "images": [
-                    "https://upload.wikimedia.org/wikipedia/commons/1/1b/Mihintale_rock_monastery.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/1/1d/Mihintale_Aradhana_gala.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/6/6a/Mihintale_stairs.jpg"
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Mihintale_Rock.jpg/960px-Mihintale_Rock.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Mihintale_Rock.jpg/960px-Mihintale_Rock.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Mihintale_Rock.jpg/960px-Mihintale_Rock.jpg"
                   ],
                   "maps_url": "https://www.google.com/maps/search/?api=1&query=Mihintale",
                   "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Mihintale",
@@ -458,9 +458,9 @@
                   "location_latitude": 6.9498,
                   "location_longitude": 80.789,
                   "images": [
-                    "https://upload.wikimedia.org/wikipedia/commons/9/9b/Sri_Lanka_tea_factory_inside.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/6/66/Tea_leaf_plucking_in_Sri_Lanka.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/7/7d/Tea_Tasting.jpg"
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Tea_plantation_Haputale.jpg/500px-Tea_plantation_Haputale.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Tea_plantation_Haputale.jpg/500px-Tea_plantation_Haputale.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Tea_plantation_Haputale.jpg/500px-Tea_plantation_Haputale.jpg"
                   ],
                   "maps_url": "https://www.google.com/maps/search/?api=1&query=Tea%20Factory%20Nuwara%20Eliya",
                   "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Tea%20Factory%20Nuwara%20Eliya",
@@ -588,9 +588,9 @@
                   "location_latitude": 6.8021,
                   "location_longitude": 80.7998,
                   "images": [
-                    "https://upload.wikimedia.org/wikipedia/commons/b/b9/Horton_Plains_World%27s_End.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/3/3f/Horton_Plains_grassland.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/8/87/Bakers_Falls_Horton_Plains.jpg"
+                    "https://upload.wikimedia.org/wikipedia/commons/4/4a/Srilankamountainforest.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Selfie_with_waterfall_in_Horton_Plains_%28Baker%27s_Falls%29.jpg/2560px-Selfie_with_waterfall_in_Horton_Plains_%28Baker%27s_Falls%29.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Selfie_with_waterfall_in_Horton_Plains_%28Baker%27s_Falls%29.jpg/2560px-Selfie_with_waterfall_in_Horton_Plains_%28Baker%27s_Falls%29.jpg"
                   ],
                   "maps_url": "https://www.google.com/maps/search/?api=1&query=Horton%20Plains%20National%20Park",
                   "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Horton%20Plains%20National%20Park",
@@ -698,9 +698,9 @@
                   "location_latitude": 6.9687,
                   "location_longitude": 80.7808,
                   "images": [
-                    "https://upload.wikimedia.org/wikipedia/commons/4/4d/Galway%27s_Land_National_Park.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/7/7b/Nuwara_Eliya_montane_forest.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/5/5b/Sri_Lanka_birding_montane.jpg"
+                    "https://www.attractionsinsrilanka.com/wp-content/uploads/2019/09/Galways-Land-National-Park-Nuwara-Eliya.jpg",
+                    "https://www.attractionsinsrilanka.com/wp-content/uploads/2019/09/Galways-Land-National-Park-Nuwara-Eliya.jpg",
+                    "https://www.attractionsinsrilanka.com/wp-content/uploads/2019/09/Galways-Land-National-Park-Nuwara-Eliya.jpg"
                   ],
                   "maps_url": "https://www.google.com/maps/search/?api=1&query=Galway%27s%20Land%20National%20Park",
                   "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Galway%27s%20Land%20National%20Park",
@@ -788,18 +788,6 @@
               "open_hours": "Daily 08:00–22:00"
             }
           ]
-        },
-        "Day 9": {
-          "day_id": "day_2025_11_09",
-          "title": "Leisure / Weather buffer",
-          "description": "Free day: add more tea estates or lakeside cycling",
-          "blocks": []
-        },
-        "Day 10": {
-          "day_id": "day_2025_11_10",
-          "title": "Nuwara Eliya → CMB departure",
-          "description": "Return to Colombo for flight/home",
-          "blocks": []
         }
       }
     },
